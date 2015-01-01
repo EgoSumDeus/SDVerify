@@ -1,0 +1,28 @@
+Version 5.0 - Jan 2, 2015
+
+    * Rewrote parts of code to streamline work load
+      and improve over all efficiency
+    * Reformated all code for efficiency
+    * Added a progress bar during write
+
+
+Version 4.0 - Jan 1, 2015
+
+    * Added Windows/Cygwin support
+    * Added FreeBSD support
+    * Added a proper report at the end
+
+Version 3.0 - Dec 30, 2015
+
+    * Adopted h2testw's file format
+    * Added progress bar for read
+    * Added Linux Support
+
+Version 2.0 - Dec 26, 2014
+
+    * Removed unfinished binaries
+    * Cleaned up unused code
+
+Version 1.0 - Dec 24, 2014
+
+    * Initial Release

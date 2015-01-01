@@ -1,0 +1,5 @@
+#!/bin/bash
+LOG=$1
+SDwrite "${@:2}" 2>&1 | tee -a "${LOG}" && \
+echo -e "\n\n" >> "${LOG}" && \
+SDread  "${@:2}" 2>&1 | tee -a "${LOG}"

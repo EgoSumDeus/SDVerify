@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		69E700571A557DC00075BDA9 /* changelog */ = {isa = PBXFileReference; lastKnownFileType = text; path = changelog; sourceTree = "<group>"; };
+		69E700581A557DC00075BDA9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69E700591A557DC00075BDA9 /* log-SDwr */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "log-SDwr"; sourceTree = "<group>"; };
+		69E7005A1A557DC00075BDA9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		69E7005B1A557DC00075BDA9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		69E7005D1A557DC00075BDA9 /* SDread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SDread.c; sourceTree = "<group>"; };
+		69E700601A557DC00075BDA9 /* SDverify.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SDverify.1; sourceTree = "<group>"; };
+		69E700621A557DC00075BDA9 /* SDwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SDwrite.c; sourceTree = "<group>"; };
+		69E700641A557DC00075BDA9 /* SDwrite.h2w */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = SDwrite.h2w; sourceTree = "<group>"; };
+		69E700661A557DC00075BDA9 /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		69E700681A557DC00075BDA9 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		69E7006A1A557DC00075BDA9 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		69E700501A557D900075BDA9 = {
+			isa = PBXGroup;
+			children = (
+				69E700571A557DC00075BDA9 /* changelog */,
+				69E700581A557DC00075BDA9 /* LICENSE */,
+				69E700591A557DC00075BDA9 /* log-SDwr */,
+				69E7005A1A557DC00075BDA9 /* Makefile */,
+				69E7005D1A557DC00075BDA9 /* SDread.c */,
+				69E700601A557DC00075BDA9 /* SDverify.1 */,
+				69E700621A557DC00075BDA9 /* SDwrite.c */,
+				69E7005B1A557DC00075BDA9 /* README */,
+				69E700641A557DC00075BDA9 /* SDwrite.h2w */,
+				69E700661A557DC00075BDA9 /* utils.c */,
+				69E700681A557DC00075BDA9 /* utils.h */,
+				69E7006A1A557DC00075BDA9 /* version.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		69D298C21A55874F0024AB25 /* SDverify */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 69D298C51A55874F0024AB25 /* Build configuration list for PBXLegacyTarget "SDverify" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = SDverify;
+			passBuildSettingsInEnvironment = 1;
+			productName = SDverify;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		69E700511A557D900075BDA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					69D298C21A55874F0024AB25 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 69E700541A557D900075BDA9 /* Build configuration list for PBXProject "SDverify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69E700501A557D900075BDA9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D298C21A55874F0024AB25 /* SDverify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		69D298C31A55874F0024AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				Makefile = /Users/Stainton/Documents/SDverify/Makefile;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69D298C41A55874F0024AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				Makefile = /Users/Stainton/Documents/SDverify/Makefile;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69E700551A557D900075BDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		69E700561A557D900075BDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D298C51A55874F0024AB25 /* Build configuration list for PBXLegacyTarget "SDverify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D298C31A55874F0024AB25 /* Debug */,
+				69D298C41A55874F0024AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E700541A557D900075BDA9 /* Build configuration list for PBXProject "SDverify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E700551A557D900075BDA9 /* Debug */,
+				69E700561A557D900075BDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69E700511A557D900075BDA9 /* Project object */;
+}
