@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		6935F3CF1A55B36C00C0D1D0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../SDVerify/README; sourceTree = "<group>"; };
+		6935F3D01A55B38A00C0D1D0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../SDVerify/LICENSE; sourceTree = "<group>"; };
+		6935F3D11A55B39E00C0D1D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../SDVerify/README.md; sourceTree = "<group>"; };
 		69E700571A557DC00075BDA9 /* changelog */ = {isa = PBXFileReference; lastKnownFileType = text; path = changelog; sourceTree = "<group>"; };
 		69E700591A557DC00075BDA9 /* log-SDwr */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "log-SDwr"; sourceTree = "<group>"; };
 		69E7005A1A557DC00075BDA9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -33,6 +36,9 @@
 				69E700661A557DC00075BDA9 /* utils.c */,
 				69E700681A557DC00075BDA9 /* utils.h */,
 				69E7006A1A557DC00075BDA9 /* version.h */,
+				6935F3CF1A55B36C00C0D1D0 /* README */,
+				6935F3D01A55B38A00C0D1D0 /* LICENSE */,
+				6935F3D11A55B39E00C0D1D0 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
