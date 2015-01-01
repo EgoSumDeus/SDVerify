@@ -8,10 +8,8 @@
 
 /* Begin PBXFileReference section */
 		69E700571A557DC00075BDA9 /* changelog */ = {isa = PBXFileReference; lastKnownFileType = text; path = changelog; sourceTree = "<group>"; };
-		69E700581A557DC00075BDA9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		69E700591A557DC00075BDA9 /* log-SDwr */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "log-SDwr"; sourceTree = "<group>"; };
 		69E7005A1A557DC00075BDA9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		69E7005B1A557DC00075BDA9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		69E7005D1A557DC00075BDA9 /* SDread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SDread.c; sourceTree = "<group>"; };
 		69E700601A557DC00075BDA9 /* SDverify.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SDverify.1; sourceTree = "<group>"; };
 		69E700621A557DC00075BDA9 /* SDwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SDwrite.c; sourceTree = "<group>"; };
@@ -26,13 +24,11 @@
 			isa = PBXGroup;
 			children = (
 				69E700571A557DC00075BDA9 /* changelog */,
-				69E700581A557DC00075BDA9 /* LICENSE */,
 				69E700591A557DC00075BDA9 /* log-SDwr */,
 				69E7005A1A557DC00075BDA9 /* Makefile */,
 				69E7005D1A557DC00075BDA9 /* SDread.c */,
 				69E700601A557DC00075BDA9 /* SDverify.1 */,
 				69E700621A557DC00075BDA9 /* SDwrite.c */,
-				69E7005B1A557DC00075BDA9 /* README */,
 				69E700641A557DC00075BDA9 /* SDwrite.h2w */,
 				69E700661A557DC00075BDA9 /* utils.c */,
 				69E700681A557DC00075BDA9 /* utils.h */,
