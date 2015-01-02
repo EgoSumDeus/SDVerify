@@ -2,11 +2,11 @@ SDVerify
 ========
 ### Compile stable software on Linux, Apple Mac, Windows/Cygwin, and FreeBSD
 
-make
+* make
 
 ### Use example of SDread and SDwrite
 
-* MAC
+## MAC
 
 SDread /Volumes/Nate_Storage
 SDwrite /Volumes/Nate_Storage
@@ -14,10 +14,10 @@ SDwrite /Volumes/Nate_Storage
 Replace "/Volumes/Nate_Storage" with the correct path.
 
 
-* LINUX
+## LINUX
 
-./SDread /media/nate/3OWE-FAJ9/
-./SDwrite /media/nate/3OWE-FAJ9/
+* ./SDread /media/nate/3OWE-FAJ9/
+* ./SDwrite /media/nate/3OWE-FAJ9/
 
 Replace "/media/nate/3OWE-FAJ9/" with the correct path.
 
